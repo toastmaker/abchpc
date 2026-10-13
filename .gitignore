@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Slurm output
+slurm-*.out
+slurm_*.out
+
+# Temporary files
+*.tmp
