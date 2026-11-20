@@ -13,6 +13,6 @@ venv/
 # Slurm output
 slurm-*.out
 slurm_*.out
-
+*_*.out
 # Temporary files
 *.tmp

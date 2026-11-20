@@ -9,4 +9,5 @@ x = rng.random(n_samples)
 y = rng.random(n_samples)
 n_inside = np.count_nonzero(x*x + y*y <= 1)
 
-print(4*n_inside/n_samples)
+result = 4*n_inside/n_samples
+print(result)
