@@ -15,7 +15,7 @@ __global__ void calc_pi(double *sum, int N)
 
 int main()
 {
-    int N = 1000000;
+    int N = 100000000;
 
     double *d_sum;
     double h_sum = 0.0;

@@ -14,6 +14,7 @@ int main(void)
 
         printf("Hello from thread %d of %d\n", tid, nthreads);
     }
+    return 0;
 
     // 2. Parallel for loop with an atomic counter
     #pragma omp parallel for
